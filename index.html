@@ -15,40 +15,276 @@
   </head>
   <body>
     <header id="header" class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="index.html">
             <img
-              src="otaku.png"
+              src="animate.png"
               alt=""
-              width="4%"
-              height="4%"
+              width="30"
+              height="30"
               class="d-inline-block align-text-top"
             />
-            Otaku
+            Anima ^__^
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-            <nav class="navbar navbar-light bg-light">
-              <form class="container-fluid justify-content-start">
-                <button class="btn btn-outline-success me-2" type="button">
-                  Login
-                </button>
-                <button class="btn btn-outline-success me-2" type="button">
-                  Sing-up
-                </button>
-              </form>
-            </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button type="button" class="btn btn-outline-danger me-2">
+                Login
+              </button>
+              <button type="button" class="btn btn-outline-danger me-2">
+                Sign-up
+              </button>
+            </form>
           </div>
         </div>
       </nav>
     </header>
+
+    <main id="main">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="11.jpg" class="d-block w-100" />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Человек-бензопила</h1>
+                <p>
+                  Дэндзи приходится полностью изменить свою жизнь, чтобы
+                  отработать непомерные долги отца. Он становится подручным
+                  якудзы в нелегком деле уничтожения демонов. На второй план
+                  отошли не только сон и отдых, а и общение с любимой девушкой.
+                  Только дьявольский питомец-помощник Почита вносит немного
+                  разнообразия в череду кровавых будней.
+                </p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-danger"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Подробнее</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="22.jpg" class="d-block w-100" />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Человек-бензопила</h1>
+                <p>
+                  Дэндзи приходится полностью изменить свою жизнь, чтобы
+                  отработать непомерные долги отца. Он становится подручным
+                  якудзы в нелегком деле уничтожения демонов. На второй план
+                  отошли не только сон и отдых, а и общение с любимой девушкой.
+                  Только дьявольский питомец-помощник Почита вносит немного
+                  разнообразия в череду кровавых будней.
+                </p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-danger"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Подробнее</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="33.jpg" class="d-block w-100" />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Человек-бензопила</h1>
+                <p>
+                  Дэндзи приходится полностью изменить свою жизнь, чтобы
+                  отработать непомерные долги отца. Он становится подручным
+                  якудзы в нелегком деле уничтожения демонов. На второй план
+                  отошли не только сон и отдых, а и общение с любимой девушкой.
+                  Только дьявольский питомец-помощник Почита вносит немного
+                  разнообразия в череду кровавых будней.
+                </p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-danger"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Подробнее</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Подтвердите возраст
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Данный раздел предназначен только для лиц, достигших 18 лет. Вам
+                есть 18 лет?
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Да
+                </button>
+                <button type="button" class="btn btn-danger">Нет</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+
+      <h2>Админестраторы</h2>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
+            <th scope="col">Обращение</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+        </tbody>
+      </table>
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/2111/2111398.png"
+                height="20"
+                width="20"
+            /></a>
+
+            <!-- Tg -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png"
+                height="20"
+                width="20"
+            /></a>
+
+            <!-- Github -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/4494/4494683.png"
+                height="20"
+                width="20"
+            /></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2022 Company:
+          <a class="text-white" href="#">Anima.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
